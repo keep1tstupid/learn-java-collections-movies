@@ -34,7 +34,7 @@ public class MainMovies {
             bw.write(result);
             bw.close();
         } catch (IOException ex) {
-            System.out.println();
+            System.out.println("We've got a problem");
         }
 
         System.out.println(moviesRaitingMap.toString());
